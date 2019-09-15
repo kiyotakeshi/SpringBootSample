@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+// コントローラークラスにつけるアノテーション
 // DIで利用できるようになる
 @Controller
 public class HelloController {
@@ -32,6 +33,7 @@ public class HelloController {
     public String postRequest(@RequestParam("text1")String str, Model model){
 
         // 画面から受け取った文字列をModelに登録
+        // sampleキーに値、strをセット
         model.addAttribute("sample", str);
 
         // helloResponse.htmlに画面遷移
