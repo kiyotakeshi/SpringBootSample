@@ -54,7 +54,7 @@ public class HelloController {
         Employee employee = helloService.findOne(id);
 
         // 検索結果をModelに登録(画面側で受け取る)
-        model.addAttribute("id", employee.getEmployeeid());
+        model.addAttribute("id", employee.getEmployeeId());
         model.addAttribute("name", employee.getEmployeeName());
         model.addAttribute("age", employee.getAge());
 

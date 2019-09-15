@@ -27,7 +27,7 @@ public class HelloService {
 
         // Employeeクラスに値をセット
         Employee employee = new Employee();
-        employee.setEmployeeid(employeeId);
+        employee.setEmployeeId(employeeId);
         employee.setEmployeeName(employeeName);
         employee.setAge(age);
 

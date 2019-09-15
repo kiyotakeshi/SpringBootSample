@@ -9,7 +9,7 @@ Springではdomainクラスと呼ぶ
  */
 @Data // Lombokの機能でgetter,setterを自動で作成
 public class Employee {
-    private int employeeid;
+    private int employeeId;
     private String employeeName;
     private int age;
 }
